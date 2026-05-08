@@ -30,3 +30,19 @@ trinket-roma-evb-overlay.dtbo-base :=  trinket-roma-base.dtb
 trinket-roma-evt1-overlay.dtbo-base :=  trinket-roma-base.dtb
 trinket-roma-evt2-overlay.dtbo-base :=  trinket-roma-base.dtb
 
+# CONFIG_RAV_DTB
+dtbo-$(CONFIG_RAV_DTB) += \
+dtbo-$(CONFIG_RAV_DTB) += \
+	trinket-rav-evb1-overlay.dtbo \
+	trinket-rav-evb1-na-overlay.dtbo \
+	trinket-rav-evb2-overlay.dtbo \
+	trinket-rav-evb2-na-overlay.dtbo \
+	trinket-rav-pvt1-overlay.dtbo \
+	trinket-rav-pvt1-na-overlay.dtbo
+
+trinket-rav-evb1-overlay.dtbo-base :=  trinket-rav-base.dtb
+trinket-rav-evb1-na-overlay.dtbo-base :=  trinket-rav-base.dtb
+trinket-rav-evb2-overlay.dtbo-base :=  trinket-rav-base.dtb
+trinket-rav-evb2-na-overlay.dtbo-base :=  trinket-rav-base.dtb
+trinket-rav-pvt1-overlay.dtbo-base :=  trinket-rav-base.dtb
+trinket-rav-pvt1-na-overlay.dtbo-base :=  trinket-rav-base.dtb

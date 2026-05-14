@@ -61,3 +61,20 @@ trinket-sofia-dvt1a-overlay.dtbo-base :=  trinket-sofia-base.dtb
 trinket-sofia-dvt1b-overlay.dtbo-base :=  trinket-sofia-base.dtb
 trinket-sofia-dvt2-overlay.dtbo-base :=  trinket-sofia-base.dtb
 trinket-sofia-pvt-overlay.dtbo-base :=  trinket-sofia-base.dtb
+
+# CONFIG_SOFIAP_DTB (Moto G Stylus 2020)
+dtbo-$(CONFIG_SOFIAP_DTB) += \
+	trinket-sofiap-evb1-overlay.dtbo \
+	trinket-sofiap-evt-overlay.dtbo \
+	trinket-sofiap-dvt1a-overlay.dtbo \
+	trinket-sofiap-dvt1b-overlay.dtbo \
+	trinket-sofiap-dvt2-overlay.dtbo \
+	trinket-sofiap-pvt-overlay.dtbo
+
+trinket-sofiap-evb1-overlay.dtbo-base :=  trinket-sofiap-base.dtb
+trinket-sofiap-evt-overlay.dtbo-base :=  trinket-sofiap-base.dtb
+trinket-sofiap-dvt1a-overlay.dtbo-base :=  trinket-sofiap-base.dtb
+trinket-sofiap-dvt1b-overlay.dtbo-base :=  trinket-sofiap-base.dtb
+trinket-sofiap-dvt2-overlay.dtbo-base :=  trinket-sofiap-base.dtb
+trinket-sofiap-pvt-overlay.dtbo-base :=  trinket-sofiap-base.dtb
+	

@@ -77,4 +77,21 @@ trinket-sofiap-dvt1a-overlay.dtbo-base :=  trinket-sofiap-base.dtb
 trinket-sofiap-dvt1b-overlay.dtbo-base :=  trinket-sofiap-base.dtb
 trinket-sofiap-dvt2-overlay.dtbo-base :=  trinket-sofiap-base.dtb
 trinket-sofiap-pvt-overlay.dtbo-base :=  trinket-sofiap-base.dtb
-	
+
+# CONFIG_SOFIAR_DTB (Moto G8 Power)
+dtbo-$(CONFIG_SOFIAR_DTB) += \
+	trinket-sofiar-evb1-overlay.dtbo \
+	trinket-sofiar-evt1-overlay.dtbo \
+	trinket-sofiar-evt2-overlay.dtbo \
+	trinket-sofiar-dvt1a-overlay.dtbo \
+	trinket-sofiar-dvt1b-overlay.dtbo \
+	trinket-sofiar-dvt2-overlay.dtbo \
+	trinket-sofiar-pvt-overlay.dtbo
+
+trinket-sofiar-evb1-overlay.dtbo-base :=  trinket-sofiar-base.dtb
+trinket-sofiar-evt1-overlay.dtbo-base :=  trinket-sofiar-base.dtb
+trinket-sofiar-evt2-overlay.dtbo-base :=  trinket-sofiar-base.dtb
+trinket-sofiar-dvt1a-overlay.dtbo-base :=  trinket-sofiar-base.dtb
+trinket-sofiar-dvt1b-overlay.dtbo-base :=  trinket-sofiar-base.dtb
+trinket-sofiar-dvt2-overlay.dtbo-base :=  trinket-sofiar-base.dtb
+trinket-sofiar-pvt-overlay.dtbo-base :=  trinket-sofiar-base.dtb

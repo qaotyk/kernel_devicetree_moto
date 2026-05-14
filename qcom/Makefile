@@ -10,7 +10,7 @@ DTC_FLAGS += -p 1024
 
 # sm6150-common devices
 
-# CONFIG_DOHA_DTB
+# CONFIG_DOHA_DTB (Moto G8 Plus)
 dtbo-$(CONFIG_DOHA_DTB) += \
 	trinket-doha-evt1-overlay.dtbo \
 	trinket-doha-evt2-overlay.dtbo \
@@ -20,7 +20,7 @@ trinket-doha-evt1-overlay.dtbo-base :=  trinket-doha-base.dtb
 trinket-doha-evt2-overlay.dtbo-base :=  trinket-doha-base.dtb
 trinket-doha-dvt2-overlay.dtbo-base :=  trinket-doha-base.dtb
 
-# CONFIG_ROMA_DTB
+# CONFIG_ROMA_DTB (Moto Tab P11)
 dtbo-$(CONFIG_ROMA_DTB) += \
 	trinket-roma-evb-overlay.dtbo \
 	trinket-roma-evt1-overlay.dtbo \
@@ -30,8 +30,7 @@ trinket-roma-evb-overlay.dtbo-base :=  trinket-roma-base.dtb
 trinket-roma-evt1-overlay.dtbo-base :=  trinket-roma-base.dtb
 trinket-roma-evt2-overlay.dtbo-base :=  trinket-roma-base.dtb
 
-# CONFIG_RAV_DTB
-dtbo-$(CONFIG_RAV_DTB) += \
+# CONFIG_RAV_DTB (Moto G8, G Fast)
 dtbo-$(CONFIG_RAV_DTB) += \
 	trinket-rav-evb1-overlay.dtbo \
 	trinket-rav-evb1-na-overlay.dtbo \
@@ -47,7 +46,7 @@ trinket-rav-evb2-na-overlay.dtbo-base :=  trinket-rav-base.dtb
 trinket-rav-pvt1-overlay.dtbo-base :=  trinket-rav-base.dtb
 trinket-rav-pvt1-na-overlay.dtbo-base :=  trinket-rav-base.dtb
 
-# CONFIG_SOFIA_DTB
+# CONFIG_SOFIA_DTB (Moto G Power EEUU)
 dtbo-$(CONFIG_SOFIA_DTB) += \
 	trinket-sofia-evb1-overlay.dtbo \
 	trinket-sofia-evt-overlay.dtbo \
